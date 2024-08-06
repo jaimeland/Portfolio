@@ -19,7 +19,7 @@ body {
 } 
 
 .navigation {
-  display: flex;
+  display: contents;
   align-items: center;
 }
 
