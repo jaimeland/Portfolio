@@ -37,37 +37,6 @@ button a {
     
 }
 
-.dropdown {
-  position: relative;
-}
-
-/* .dropbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: red;
-  font-family: inherit;
-  cursor: pointer;
-} */
-
-.dropdown-content {
-  /* display: none; */
-  position: absolute;
-  background-color: white;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px blue;
-  z-index: 1;
-}
-
-dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
 
 
 .top-bar .navigation {
