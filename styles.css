@@ -1,0 +1,136 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+    height: 20px;
+} 
+
+button a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+   }
+
+
+.top-bar button {
+    text-decoration: none;
+    color: inherit;
+    margin: 0 70px;
+    
+}
+
+.top-bar .navigation {
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.languages {
+    text-align: center;
+}
+
+/* Contact */
+.email {
+    font-weight: normal;
+} 
+
+.linkedin {
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Home */
+
+.skills {
+    font-size: 17px;
+    border: 5px solid black;
+    border-radius: 35px;
+   }
+   
+   .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: red;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: red;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+   /* Projects */
+
+   
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
