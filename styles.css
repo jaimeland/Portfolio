@@ -222,6 +222,29 @@ a {
     background-color: lightblue;
 }
 
+.profile-box {
+    text-align: center;
+    border: black 10px;
+}
+
+.profile-details h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profile-details p {
+    margin: 10px 0;
+}
+
+.profile-details a {
+    color: #333;
+    text-decoration: none;
+}
+
+.profile-details a:hover {
+    text-decoration: underline;
+}
+
 
 
 
