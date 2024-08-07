@@ -141,9 +141,19 @@ a {
 
 /* PROFILE */
 
+.about-me {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #007BFF; /* Adding border */
+}
+
 .profile-box {
     text-align: center;
-    border: 10px red;
 }
 
 .profile-details h1 {
