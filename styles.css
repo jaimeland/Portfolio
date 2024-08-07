@@ -228,11 +228,11 @@ a {
 
 .profile-details h1 {
     font-size: 24px;
-    margin-bottom: 10px black;
+    margin-bottom: 10px;
 }
 
 .profile-details p {
-    margin: 10px 0 black;
+    margin: 10px 0;
 }
 
 .profile-details a {
