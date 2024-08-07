@@ -182,6 +182,28 @@ a {
     color: black;
 }
 
+.profile-box {
+    text-align: center;
+}
+
+.profile-details h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profile-details p {
+    margin: 10px 0;
+}
+
+.profile-details a {
+    color: #333;
+    text-decoration: none;
+}
+
+.profile-details a:hover {
+    text-decoration: underline;
+}
+
 .download-button {
     display: inline-block;
     padding: 10px 20px;
@@ -199,6 +221,8 @@ a {
 .download-button:hover {
     background-color: lightblue;
 }
+
+
 
 
 
