@@ -224,7 +224,6 @@ a {
 
 .profile-box {
     text-align: center;
-    border: black 10px;
 }
 
 .profile-details h1 {
@@ -244,7 +243,6 @@ a {
 .profile-details a:hover {
     text-decoration: underline;
 }
-
 
 
 
