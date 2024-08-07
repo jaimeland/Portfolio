@@ -141,30 +141,29 @@ a {
 
 /* PROFILE */
 
+.profile-box {
+    text-align: center;
+}
+
 .profile-details h1 {
-    margin-top: 0;
     font-size: 24px;
+    margin-bottom: 10px;
 }
 
 .profile-details p {
     margin: 10px 0;
-    font-size: 16px;
 }
 
-.social-links a {
+.profile-details a {
     color: #333;
-    margin: 0 10px;
-    font-size: 24px;
     text-decoration: none;
 }
 
-.social-links a:hover {
-    color: #0077b5; /* LinkedIn Blue */
+.profile-details a:hover {
+    text-decoration: underline;
 }
 
-.social-links a:hover:nth-child(2) {
-    color: #333; /* GitHub Black */
-}
+
 
 .phone {
     color: black;
