@@ -162,15 +162,16 @@ a {
     color: #0077b5; /* LinkedIn Blue */
 }
 
+.social-links a:hover:nth-child(2) {
+    color: #333; /* GitHub Black */
+}
 
-#phone-number:hover {
+#phone-number {
     color: red;
-    text-decoration: none;
 }
 
 .phone {
-    color: red;
-    text-decoration: none;
+    color: black;
 }
 
 #email {
@@ -179,28 +180,6 @@ a {
 
 .email {
     color: black;
-}
-
-.profile-box {
-    text-align: center;
-}
-
-.profile-details h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.profile-details p {
-    margin: 10px 0;
-}
-
-.profile-details a {
-    color: #333;
-    text-decoration: none;
-}
-
-.profile-details a:hover {
-    text-decoration: underline;
 }
 
 .download-button {
@@ -221,27 +200,6 @@ a {
     background-color: lightblue;
 }
 
-.profile-box {
-    text-align: center;
-}
-
-.profile-details h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.profile-details p {
-    margin: 10px 0;
-}
-
-.profile-details a {
-    color: #333;
-    text-decoration: none;
-}
-
-.profile-details a:hover {
-    text-decoration: underline;
-}
 
 
 
