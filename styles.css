@@ -143,6 +143,7 @@ a {
 
 .profile-box {
     text-align: center;
+    border: 10px red;
 }
 
 .profile-details h1 {
