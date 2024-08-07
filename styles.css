@@ -171,8 +171,8 @@ a {
     text-decoration: none;
 }
 
-.phone:hover {
-    color: black;
+.phone {
+    color: red;
     text-decoration: none;
 }
 
