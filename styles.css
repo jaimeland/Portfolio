@@ -171,13 +171,13 @@ a {
     text-decoration: none;
 }
 
-.phone {
+.phone:hover {
     color: black;
+    text-decoration: none;
 }
 
 #email {
     color: red;
-    text-decoration: none;
 }
 
 .email {
