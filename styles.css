@@ -168,6 +168,7 @@ a {
 
 #phone-number {
     color: red;
+    text-decoration: none;
 }
 
 .phone {
