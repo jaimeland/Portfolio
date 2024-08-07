@@ -143,7 +143,6 @@ a {
 
 .profile-box {
     text-align: center;
-    text-decoration: dotted;
 }
 
 .profile-details h1 {
@@ -160,9 +159,9 @@ a {
     text-decoration: none;
 }
 
-.profile-details a:hover {
+/* .profile-details a:hover {
     text-decoration: underline;
-}
+} */
 
 
 
