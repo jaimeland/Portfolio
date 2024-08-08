@@ -145,6 +145,8 @@ a {
 .about-me {
     display: flex;
     width: auto;
+    height: 200px;
+    object-fit: cover;
     max-width: fit-content;
     margin: 20px;
     padding: 20px;
