@@ -197,6 +197,13 @@ a {
     font-size: 30px;
 }
 
+.headshot { /* Headshot */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 
 .download-button {
     display: inline-block;
