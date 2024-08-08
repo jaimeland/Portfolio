@@ -198,8 +198,8 @@ a {
 }
 
 .headshot { /* Headshot */
-    width: 200px; /* Adjust the size of the image */
-    height: 200px; /* Make sure the height matches the width */
+    width: auto; /* Adjust the size of the image */
+    height: auto; /* Make sure the height matches the width */
     border-radius: 50%; /* Makes the image round */
     object-fit: cover; /* Ensures the image covers the entire circle without distortion */
     object-position: center; /* Adjusts which part of the image is centered */
