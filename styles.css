@@ -155,6 +155,8 @@ a {
 
 .profile-box {
     text-align: center;
+    display: flex;
+    align-content: end;
 }
 
 .profile-details h1 {
