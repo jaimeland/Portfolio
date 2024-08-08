@@ -198,10 +198,10 @@ a {
 }
 
 .headshot { /* Headshot */
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit: fill;
     object-position: center;
     border: 3px solid black;
 }
