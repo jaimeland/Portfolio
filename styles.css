@@ -1,3 +1,16 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 /* Contact */
 .email {
     font-weight: normal;
@@ -11,15 +24,6 @@ a {
     text-decoration: none;
 }
 
-
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    color: #333;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 .top-bar {
     display: flex;
@@ -154,7 +158,6 @@ a {
 
 .profile-box {
     text-align: center;
-    size: 20px;
 }
 
 .profile-details h1 {
