@@ -198,12 +198,12 @@ a {
 }
 
 .headshot { /* Headshot */
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: center;
-    border: 3px solid black;
+    width: 150px; /* Adjust the size of the image */
+    height: 150px; /* Make sure the height matches the width */
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover; /* Ensures the image covers the entire circle without distortion */
+    object-position: center; /* Adjusts which part of the image is centered */
+    border: 3px solid #333; /* Optional: Add a border around the image */
 }
 
 
