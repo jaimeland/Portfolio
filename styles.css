@@ -145,7 +145,7 @@ a {
 .about-me {
     display: flex;
     width: auto;
-    height: 200px;
+    max-width: fit-content;
     margin: 20px;
     padding: 20px;
     background-color: white;
