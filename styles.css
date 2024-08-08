@@ -155,7 +155,7 @@ a {
 
 .profile-box {
     display: flex;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
     align-items: center;
     text-align: center;
 }
