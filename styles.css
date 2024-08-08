@@ -202,7 +202,7 @@ a {
     height: 300px; /* Make sure the height matches the width */
     border-radius: 50%; /* Makes the image round */
     object-fit: cover; /* Ensures the image covers the entire circle without distortion */
-    object-position: center; /* Adjusts which part of the image is centered */
+    object-position: top; /* Adjusts which part of the image is centered */
     border: 3px solid #333; /* Optional: Add a border around the image */
 }
 
