@@ -169,7 +169,7 @@ a {
     margin-top: 0;
 }
 
-#app {
+h2 i.fas.fa-mobile-alt {
     color: green;
 }
 
@@ -260,6 +260,8 @@ a {
 .download-button:hover {
     background-color: lightblue;
 }
+
+
 
 
 
