@@ -140,6 +140,33 @@ a {
     margin-top: 0;
 }
 
+/* Software */
+
+.software {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.software-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.software-item {
+    flex: 1 1 calc(33% - 40px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+}
+
+.project-item h2 {
+    margin-top: 0;
+}
+
 /* PROFILE */
 
 .about-me {
