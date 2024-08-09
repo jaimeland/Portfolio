@@ -152,16 +152,17 @@ a {
 
 .software-list {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column; /* Stacks items vertically */
     gap: 20px;
+    width: 100%; /* Ensures the list spans the full width */
 }
 
 .software-item {
-    flex: 1 1 calc(33% - 40px);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-
+    width: 100%; /* Ensures each item spans the full width of the parent */
+    box-sizing: border-box; /* Includes padding in the width calculation */
 }
 
 .project-item h2 {
