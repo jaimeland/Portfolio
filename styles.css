@@ -145,7 +145,8 @@ a {
 .software {
     padding: 20px;
     background-color: white;
-    margin: 20px;
+    margin: 0;
+    width: 100%;
     border-radius: 10px;
 }
 
