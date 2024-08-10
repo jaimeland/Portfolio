@@ -108,7 +108,7 @@ a {
 .skills {
     font-size: 15px;
     width: 200px;
-    position: absolute;
+    left: 20px;
     margin: 20px auto;
     border: 5px solid black;
     border-radius: 35px;
