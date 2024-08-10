@@ -212,7 +212,7 @@ h2 i.fas {
     border: 1px solid #ddd; /* Light border around the box */
     border-radius: 8px; /* Rounded corners for the box */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    position: absolute; /* Positioning it absolutely */
+    position: relative; /* Positioning it absolutely */
     left: 20px; /* Align it to the left of the screen */
     top: 20px; /* Align it to the top of the screen */
     display: flex; /* Use flexbox for layout */
