@@ -107,6 +107,8 @@ a {
 /* Home */
 .skills {
     font-size: 15px;
+    width: 200px;
+    margin: 20px auto;
     border: 5px solid black;
     border-radius: 35px;
     padding: 5px; /* Added padding for better spacing */
