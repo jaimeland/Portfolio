@@ -196,7 +196,7 @@ h2 i.fas {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border: 2px solid #007BFF; /* Adding border */
-} */
+}
 
 .about-me {
     display: flex; /* Use flexbox for layout */
@@ -207,6 +207,7 @@ h2 i.fas {
     padding: 20px; /* Add padding around the section */
     box-sizing: border-box; /* Include padding in the element's total width and height */
     background-color: #f4f4f4; /* Light background color for the section */
+    border: 2px solid #007BFF; /* Adding border */
 }
 
 .profile-box {
