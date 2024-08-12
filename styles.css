@@ -197,6 +197,7 @@ h2 i.fas {
     box-sizing: border-box; /* Include padding in the element's total width and height */
     background-color: #f4f4f4; /* Light background color for the section */
     border: 2px solid #007BFF; /* Adding border */
+    
 }
 
 .profile-box {
