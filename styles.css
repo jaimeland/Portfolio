@@ -278,7 +278,7 @@ h2 i.fas {
 }
 
 
-
+/* Skills 2 */
 
 .skills-section {
     margin: 20px;
@@ -303,6 +303,29 @@ progress[value]::-webkit-progress-value {
 
 progress[value]::-moz-progress-bar {
     background-color: #4caf50;
+}
+
+/* Dark mode */
+
+body.light-mode {
+    background-color: white;
+    color: black;
+}
+
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.dark-mode-toggle {
+    text-align: center;
+    margin: 20px 0;
 }
 
 
