@@ -1,7 +1,21 @@
-const darkModeBtn = document.getElementById('dark-mode-btn');
-const body = document.body;
+// Select the button and the body element
+const toggleButton = document.querySelector('.dark-mode-toggle');
+const body = document.querySelector('body');
 
-darkModeBtn.addEventListener('click', function() {
-        body.classList.toggle('dark-mode');
-        body.classList.toggle('light-mode');
-    });
+// Check if dark mode is already applied (for persistence)
+if (localStorage.getItem('darkMode') === 'enabled') {
+  body.classList.add('dark-mode');
+}
+
+// Toggle dark mode on button click
+toggleButton.addEventListener('click', () => {
+  // Toggle dark mode class on body
+  body.classList.toggle('dark-mode');
+
+  // Save preference to localStorage
+  if (body.classList.contains('dark-mode')) {
+    localStorage.setItem('darkMode', 'enabled');
+  } else {
+    localStorage.removeItem('darkMode');
+  }
+});
