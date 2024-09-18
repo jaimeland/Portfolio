@@ -127,9 +127,15 @@ a {
     border-radius: 10px;
 }
 
-.project-list {
+/* .project-list {
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
+} */
+
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
 }
 
@@ -140,6 +146,7 @@ a {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 
 }
+
 
 .project-item h2 {
     margin-top: 0;
