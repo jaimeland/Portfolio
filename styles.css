@@ -319,26 +319,14 @@ progress[value]::-moz-progress-bar {
     color: white;
   }
   
-  /* Dark Mode Styles
-  body.dark-mode {
-    background-color: #2C2C2C;
-    color: white;
-  }
-
-  
-  button.dark-mode {
-    background-color: #555;
-    color: white;
-  } */
-
-  /* Dark Mode Styles */
+/* Dark Mode Styles */
 body.dark-mode {
     background-color: #2C2C2C;
     color: white;
 }
 
 body.dark-mode .top-bar {
-    background-color: #333;
+    background-color: transparent;
 }
 
 body.dark-mode .dropdown-content {
