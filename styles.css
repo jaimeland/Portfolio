@@ -314,7 +314,7 @@ progress[value]::-moz-progress-bar {
   
   /* Dark Mode Styles */
   body.dark-mode {
-    background-color: green;
+    background-color: #2C2C2C;
     color: white;
   }
   
