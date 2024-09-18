@@ -318,7 +318,7 @@ progress[value]::-moz-progress-bar {
     color: white;
   }
 
-  phone.dark-mode {
+  .phone.dark-mode {
     color: white;
   }
   
