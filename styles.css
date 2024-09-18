@@ -326,7 +326,7 @@ body.dark-mode {
 }
 
 body.dark-mode .top-bar {
-    background-color: transparent;
+    background-color: blue;
 }
 
 body.dark-mode .dropdown-content {
