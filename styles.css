@@ -198,7 +198,7 @@ h2 i.fas {
     height: 100vh; /* Full viewport height */
     padding: 20px; /* Add padding around the section */
     box-sizing: border-box; /* Include padding in the element's total width and height */
-    background-color: #f4f4f4; /* Light background color for the section */
+    /* background-color: #f4f4f4; Light background color for the section */
     border: 2px solid #007BFF; /* Adding border */
     
 }
