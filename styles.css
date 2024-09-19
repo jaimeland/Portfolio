@@ -329,6 +329,13 @@ body.dark-mode .top-bar {
     background-color: #333;
 }
 
+/* Keep button colors in top bar consistent */
+body.dark-mode .top-bar button,
+body.top-bar button {
+    background-color: #007BFF; /* Button color in light and dark mode */
+    color: white; /* Text color for buttons */
+    border: none; /* Remove border if any */
+
 
 
 body.dark-mode .dropdown-content {
