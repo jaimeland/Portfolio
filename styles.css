@@ -330,7 +330,7 @@ body.dark-mode .top-bar {
     background-color: #333;
 }
 
-body.dark-mode .about-me .phone .email {
+body.dark-mode .fas fa-phone phone-number {
     color: green;
 }
 
