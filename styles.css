@@ -331,7 +331,7 @@ body.dark-mode .top-bar {
 }
 
 body.dark-mode .about-me {
-    background-color: red;
+    color: red;
 }
 
 /* Dropdown Button */
