@@ -132,10 +132,8 @@ a {
 
 .project-list {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Reduce min-width to 300px */
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     gap: 20px;
-    width: 100%; /* Ensure the grid takes full width */
-    box-sizing: border-box;
 }
 
 .project-item {
