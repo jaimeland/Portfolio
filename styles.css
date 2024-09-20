@@ -139,12 +139,11 @@ a {
 }
 
 .project-item {
-    background-color: white;
+    flex: 1 1 calc(33% - 40px);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    min-width: 100%; /* Ensure each project takes full width when screen is small */
-    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
 }
 
 
