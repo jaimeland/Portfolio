@@ -132,16 +132,19 @@ a {
 
 .project-list {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Reduce min-width to 300px */
     gap: 20px;
+    width: 100%; /* Ensure the grid takes full width */
+    box-sizing: border-box;
 }
 
 .project-item {
-    flex: 1 1 calc(33% - 40px);
+    background-color: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 100%; /* Ensure each project takes full width when screen is small */
+    text-align: center;
 }
 
 
