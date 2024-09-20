@@ -134,6 +134,7 @@ a {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     gap: 20px;
+    width: 100%;
 }
 
 .project-item {
