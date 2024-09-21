@@ -327,6 +327,10 @@ body.dark-mode .top-bar {
     background-color: #333;
 }
 
+body.dark-mode #phone {
+    color: green;
+}
+
 
 /* Dropdown Button */
 body.dark-mode .top-bar .dropbtn {
