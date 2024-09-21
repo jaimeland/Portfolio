@@ -327,7 +327,7 @@ body.dark-mode .top-bar {
     background-color: #333;
 }
 
-body.dark-mode #phone {
+#phone {
     color: green;
 }
 
