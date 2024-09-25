@@ -35,10 +35,6 @@ a {
     height: 50px; /* Adjusted height for better appearance */
 }
 
-.top-bar button {
-    position: absolute;
-}
-
 .top-bar img {
     margin-right: auto;
     max-height: 50px; /* Adjust logo size if needed */
