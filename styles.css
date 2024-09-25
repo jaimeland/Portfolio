@@ -29,24 +29,22 @@ a {
 
 .top-bar {
     display: flex;
-    justify-content: center; /* Center the navigation and dark mode toggle */
-    align-items: center;
-    padding: 10px 20px;
+    justify-content: center; /* Align items to the left */
     background-color: black;
-    position: relative; /* To allow absolute positioning for the logo */
+    padding: 10px;
+    height: 50px; /* Adjusted height for better appearance */
 }
 
 .top-bar img {
-    position: absolute;
-    left: 20px; /* Keep the logo to the far left */
-    height: 50px; /* Adjust the size as needed */
+    margin-right: auto;
+    max-height: 50px; /* Adjust logo size if needed */
 }
 
 .navigation {
     display: flex;
     align-items: center;
-    justify-content: center;
 }
+
 
 button a {
     text-decoration: none;
