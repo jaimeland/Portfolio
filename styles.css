@@ -36,7 +36,7 @@ a {
 }
 
 .top-bar button {
-    position: relative;
+    position: fixed;
 }
 
 .top-bar img {
