@@ -20,13 +20,20 @@ toggleButton.addEventListener('click', () => {
   }
 });
 
-function handleSubmit(event) {
+
+
+
+
+
+
+document.getElementById('contact-form').addEventListener('submit', function(event) {
   event.preventDefault(); // Prevent the default form submission
 
+  // Check if form validation passes
   if (validateForm()) {
       sendEmail();
   }
-}
+});
 
 function validateForm() {
   const email = document.getElementById('email-box').value.trim();
@@ -52,14 +59,20 @@ function validateForm() {
 }
 
 function sendEmail() {
-  const email = document.getElementById('email-box').value.trim();
-  const subject = document.getElementById('subject-box').value.trim();
-  const description = document.getElementById('description-box').value.trim();
+  const emailParams = {
+      user_email: document.getElementById('email-box').value.trim(),
+      subject: document.getElementById('subject-box').value.trim(),
+      message: document.getElementById('description-box').value.trim()
+  };
 
-  const mailtoLink = `mailto:jaime.landau19@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(description + '\n\n' + email)}`;
-
-  // Open the default email client
-  window.location.href = mailtoLink; // Use window.location.href to navigate to the mailto link
+  emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", emailParams)
+  .then(function(response) {
+      console.log('SUCCESS!', response.status, response.text);
+      alert('Email sent successfully!');
+  }, function(error) {
+      console.log('FAILED...', error);
+      alert('Failed to send email. Please try again later.');
+  });
 }
 
 function displayError(message) {
