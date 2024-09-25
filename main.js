@@ -57,7 +57,7 @@ function sendEmail() {
   const subject = document.getElementById('subject-box').value.trim();
   const description = document.getElementById('description-box').value.trim();
 
-  const mailtoLink = `jaime.landau19@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(description + '\n\n' + email)}`;
+  const mailtoLink = `mailto:jaime.landau19@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(description + '\n\n' + email)}`;
 
   // Open the default email client
   window.location.href = mailtoLink; // Use window.location.href to navigate to the mailto link
