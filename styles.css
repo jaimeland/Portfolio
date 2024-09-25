@@ -32,7 +32,7 @@ a {
     justify-content: center; /* Center the navigation and dark mode toggle */
     align-items: center;
     padding: 10px 20px;
-    background-color: #f5f5f5;
+    background-color: black;
     position: relative; /* To allow absolute positioning for the logo */
 }
 
