@@ -53,6 +53,57 @@
     
             <button type="submit">Send Email</button>
         </form>
+
+        <h1>Contact Us</h1>
+    <form id="contact-form" method="POST" action="">
+        <label for="email-box">Your Email:</label>
+        <input type="email" id="email-box" name="user_email" required>
+
+        <label for="subject-box">Subject:</label>
+        <input type="text" id="subject-box" name="subject" required>
+
+        <label for="description-box">Message:</label>
+        <textarea id="description-box" name="message" required></textarea>
+
+        <button type="submit">Send Email</button>
+        <div class="error-message">
+            <?php
+            if ($_SERVER["REQUEST_METHOD"] == "POST") {
+                // Validate inputs
+                $email = filter_var(trim($_POST['user_email']), FILTER_SANITIZE_EMAIL);
+                $subject = trim($_POST['subject']);
+                $message = trim($_POST['message']);
+
+                $error = '';
+
+                if (empty($email) || empty($subject) || empty($message)) {
+                    $error = 'Please fill in all required fields.';
+                } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+                    $error = 'Please enter a valid email address.';
+                }
+
+                if (empty($error)) {
+                    // Send the email
+                    $to = "jaime.landau19@gmail.com"; // Your email address
+                    $headers = "From: " . $email . "\r\n" .
+                               "Reply-To: " . $email . "\r\n" .
+                               "X-Mailer: PHP/" . phpversion();
+
+                    $email_subject = "Subject: " . $subject;
+                    $email_body = "Message: " . $message . "\n\nFrom: " . $email;
+
+                    if (mail($to, $email_subject, $email_body, $headers)) {
+                        echo "<p>Email sent successfully!</p>";
+                    } else {
+                        echo "<p>Failed to send email. Please try again later.</p>";
+                    }
+                } else {
+                    echo "<p>$error</p>";
+                }
+            }
+            ?>
+        </div>
+    </form>
     
         
 
