@@ -48,18 +48,7 @@ a {
     justify-content: center;
 }
 
-.dark-mode-toggle {
-    position: absolute;
-    padding: 10px 20px; /* Ensure the button size remains consistent */
-    font-size: 16px; /* Adjust font size if needed */
-    background-color: #007BFF; /* Button color */
-    color: black;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px; /* Add border radius for a smooth button */
-    height: auto; /* Ensure the height adjusts properly */
-    line-height: normal; /* Make sure the text inside the button displays correctly */
-}
+
 
 
 
