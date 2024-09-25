@@ -65,7 +65,7 @@ function sendEmail() {
       message: document.getElementById('description-box').value.trim()
   };
 
-  emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", emailParams)
+  emailjs.send("service_4qcjh6h, template_dvm68hk, emailParams)
   .then(function(response) {
       console.log('SUCCESS!', response.status, response.text);
       alert('Email sent successfully!');
