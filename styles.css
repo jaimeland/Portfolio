@@ -36,7 +36,6 @@ a {
 }
 
 .top-bar img {
-    position: absolute;
     margin-right: auto;
     max-height: 50px; /* Adjust logo size if needed */
 }
