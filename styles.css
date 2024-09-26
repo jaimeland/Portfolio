@@ -182,7 +182,7 @@ a {
     color: #333;
 } */
 
-.project-item p {
+/* .project-item p {
     font-size: 16px;
     line-height: 1.6;
     margin: 15px 0;
@@ -214,7 +214,7 @@ iframe:hover {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .project-list {
         flex-direction: column;
     }
@@ -222,7 +222,82 @@ iframe:hover {
     .project-item {
         width: 100%;
     }
+} */ */
+
+
+
+.projects h1 {
+    font-size: 36px;
+    color: #444;
+    margin-bottom: 30px;
 }
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: calc(50% - 20px); /* This makes the item take 50% of the row with a gap */
+    text-align: left;
+}
+
+.project-item h2 {
+    font-size: 22px;
+    color: #333;
+}
+
+.project-item p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 15px 0;
+}
+
+.project-item a {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.project-item a:hover {
+    background-color: #0056b3;
+}
+
+iframe {
+    margin-top: 15px;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    width: 100%;
+    height: 300px;
+    transition: transform 0.3s ease;
+}
+
+iframe:hover {
+    transform: scale(1.02);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .project-list {
+        flex-direction: column;
+    }
+
+    .project-item {
+        width: 100%; /* Full width on smaller screens */
+    }
+}
+
+
 
 /* Software */
 
