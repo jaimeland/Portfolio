@@ -479,7 +479,7 @@ body.dark-mode .top-bar {
 }
 
 body.dark-mode .project-list {
-    background-color: green;
+    color: green;
 }
 
 /* Dropdown Button */
