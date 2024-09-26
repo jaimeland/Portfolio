@@ -225,7 +225,6 @@ iframe:hover {
 } */ */
 
 
-
 .projects h1 {
     font-size: 36px;
     color: #444;
@@ -235,8 +234,8 @@ iframe:hover {
 .project-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-between; /* Space projects evenly */
+    gap: 20px; /* Gap between items */
 }
 
 .project-item {
@@ -244,7 +243,8 @@ iframe:hover {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: calc(50% - 20px); /* This makes the item take 50% of the row with a gap */
+    width: calc(50% - 20px); /* Ensure two items fit in a row with a gap */
+    box-sizing: border-box; /* Make sure padding and border are included in width */
     text-align: left;
 }
 
@@ -296,6 +296,7 @@ iframe:hover {
         width: 100%; /* Full width on smaller screens */
     }
 }
+
 
 
 
