@@ -22,12 +22,22 @@ a {
 }
 
 /* Contact Information */
-.contact-details {
+/* .contact-details {
     margin: 40px 0;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} */
+
+.contact-details {
+    text-align: left;
+    margin: 50px auto;
+    width: 60%;
+    background-color: #FEE9D7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .contact-info {
@@ -52,7 +62,7 @@ a {
 }
 
 /* Contact Form */
-form {
+/* form {
     background-color: #fff;
     padding: 30px;
     margin-top: 20px;
@@ -61,6 +71,17 @@ form {
     max-width: 400px;
     width: 100%;
     margin: 0 auto;
+} */
+
+form {
+    background-color: #000; /* Dark background */
+    padding: 30px;
+    border-radius: 15px;
+    width: 350px;
+    color: #fff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    margin-top: 20px;
 }
 
 form h2 {
@@ -74,6 +95,8 @@ form label {
     margin-bottom: 5px;
     display: block;
 }
+
+
 
 form input[type="text"],
 form textarea {
