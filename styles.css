@@ -616,6 +616,7 @@ body.dark-mode .top-bar .dark-mode-toggle {
     background-color: blue;
     color: white;
     height: 40px;
+    padding: 10px 20px;
 }
 
 
