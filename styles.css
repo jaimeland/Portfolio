@@ -140,7 +140,7 @@ form button[type="submit"]:hover {
     }
 
     .dark-mode-toggle {
-        padding: 8px 15px;
+        padding: 14px 16px;
         font-size: 14px;
     }
 }
