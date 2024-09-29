@@ -142,7 +142,6 @@ form button[type="submit"]:hover {
     .dark-mode-toggle {
         padding: 14px 16px;
         font-size: 14px;
-        height: 40px;
     }
 }
 
@@ -616,6 +615,7 @@ body.dark-mode .top-bar .dropbtn {
 body.dark-mode .top-bar .dark-mode-toggle {
     background-color: blue;
     color: white;
+    height: 40px;
 }
 
 
