@@ -1,82 +1,104 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Projects</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    </head>
-    <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projects by Jaime Landau, including Unity game development and a class scheduling web application.">
+    <title>Projects | Jaime Landau</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="Home.html" aria-label="Jaime Landau home">
+            <img src="JLlogo.jpeg" alt="" class="brand-mark">
+            <span>Jaime Landau</span>
+        </a>
+        <nav class="site-nav" aria-label="Primary navigation">
+            <a href="Home.html">Home</a>
+            <a href="Projects.html" aria-current="page">Projects</a>
+            <a href="Contact.html">Contact</a>
+            <a class="nav-resume" href="Resume.html">Resume</a>
+        </nav>
+    </header>
 
+    <main>
+        <section class="page-hero">
+            <p class="eyebrow">Project Portfolio</p>
+            <h1>Applied projects across gameplay, web systems, backend logic, and databases.</h1>
+            <p>
+                These projects show my ability to move from requirements to implemented features,
+                organize code around clear technical goals, and build practical user-facing systems.
+            </p>
+        </section>
 
-        <header class="top-bar">
-          <img src="JLlogo.jpeg">
-          <button class="dark-mode-toggle">Toggle Dark Mode</button>
-          <script src="main.js"></script>
+        <section class="section project-detail-list" aria-label="Project details">
+            <article class="project-detail">
+                <div>
+                    <p class="section-kicker">Game Development</p>
+                    <h2>3D Game: Enemy AI & Mission Logic</h2>
+                    <p>
+                        Developed a playable 3D game using Unity and C# with enemy AI
+                        pathfinding, collectibles, mission completion systems, and real-time physics.
+                    </p>
+                </div>
+                <div>
+                    <h3>Technical Highlights</h3>
+                    <ul class="clean-list">
+                        <li>Applied object-oriented design patterns to build scalable gameplay architecture.</li>
+                        <li>Built responsive player interactions and mission-driven game systems.</li>
+                        <li>Implemented enemy AI behavior, collectibles, and completion logic.</li>
+                    </ul>
+                    <ul class="pill-list compact">
+                        <li>C#</li>
+                        <li>Unity 3D</li>
+                        <li>Object-Oriented Programming</li>
+                        <li>Scene Management</li>
+                    </ul>
+                </div>
+            </article>
 
-      
-            <nav class="navigation">
-                <div class="dropdown">
-                    <button class="dropbtn">Pages 
-                      <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
-                      <a href="Home.html">Home</a>
-                      <a href="Projects.html">Projects</a>
-                      <a href="Contact.html">Contact</a>
-                    </div>
-                  </div> 
-                  </nav>
-                  </header>
-                
-                  <section class="projects">
-                    <h1>Projects</h1>
-                    <div class="project-list">
-                      <div class="project-item">
-                        <h2>Shopping List</h2>
-                        <p>This project consisted on making a website to add, 
-                          remove and find items as well as include an effect.
-                          This was made using HTML, CSS and Javascript.
-                        </p>
-                        <a href="https://shopping-list-gilt.vercel.app" target="_blank">Shopping List</a>
-                        <iframe src="https://shopping-list-gilt.vercel.app" frameborder="0" width="600" height="400"></iframe>
+            <article class="project-detail">
+                <div>
+                    <p class="section-kicker">Web Development</p>
+                    <h2>Class Scheduling Web Application</h2>
+                    <p>
+                        Built a full-stack responsive web app enabling students to plan course
+                        schedules based on availability and prerequisites.
+                    </p>
+                </div>
+                <div>
+                    <h3>Technical Highlights</h3>
+                    <ul class="clean-list">
+                        <li>Engineered backend scheduling logic in PHP with a SQL database.</li>
+                        <li>Designed a mobile-first UI for accessibility across devices.</li>
+                        <li>Organized schedule planning around availability, prerequisites, and user input.</li>
+                    </ul>
+                    <ul class="pill-list compact">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>PHP</li>
+                        <li>SQL</li>
+                        <li>Authentication</li>
+                    </ul>
+                </div>
+            </article>
+        </section>
 
-                      </div>
-                      <div class="project-item">
-                        <h2>Physics Game</h2>
-                        <p>This is a physics algorithm in which you can input
-                          a speed, an angle, and the mass of an object and it calculates
-                          the vertical and horizontal speeds, the maximum height and displacement,
-                          and the total time of the object while also animating the object as well.
-                        </p>
-                        <a href="https://physics-game-beta.vercel.app" target="_blank">Physics Game</a>
-                        <iframe src="https://physics-game-beta.vercel.app" frameborder="0" width="800" height="400"></iframe>
+        <section class="cta-band" aria-labelledby="github-heading">
+            <div>
+                <p class="section-kicker">More Code</p>
+                <h2 id="github-heading">Explore my repositories and technical growth on GitHub.</h2>
+            </div>
+            <div class="cta-actions">
+                <a class="button primary" href="https://github.com/jaimeland" target="_blank" rel="noopener">Open GitHub</a>
+                <a class="button secondary" href="Resume.html">View Resume</a>
+            </div>
+        </section>
+    </main>
 
-                      </div>
-                      <div class="project-item">
-                        <h2>Gradplan</h2>
-                        <p>This web development project consiste of using HTML, CSS, and Javascript
-                          to make website that lets students schedule classes by semester and year as well as 
-                          search by course code.
-                        </p>
-                        <a href="https://grad-plan.vercel.app" target="_blank">Gradplan</a>
-                        <iframe src="https://grad-plan.vercel.app" frameborder="0" width="600" height="400"></iframe>
-
-                      </div>
-                      <div class="project-item">
-                        <h2>Python List Comprehension</h2>
-                        <p>The objective of this activity was to learn list comprehension in Python. <br> You can download it and run it in the link below.
-                        </p>
-                        <a href="https://github.com/jaimeland/List-Comprehension-" target="_blank">List Comprehension</a>
-                      </div>
-
-                      
-
-                      
-                    </div>
-                  </section>
-
-                  
-
-                  
-    </body>
+    <footer class="site-footer">
+        <p>Jaime Landau &middot; Project Portfolio</p>
+        <a href="Contact.html">Contact Me</a>
+    </footer>
+</body>
 </html>

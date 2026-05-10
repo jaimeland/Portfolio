@@ -1,115 +1,251 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>My Website</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio and resume website for Jaime Landau, an entry-level IT and systems professional with computer science, technical support, and cybersecurity experience.">
+    <title>Jaime Landau | IT & Systems Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="Home.html" aria-label="Jaime Landau home">
+            <img src="JLlogo.jpeg" alt="" class="brand-mark">
+            <span>Jaime Landau</span>
+        </a>
+        <nav class="site-nav" aria-label="Primary navigation">
+            <a href="Home.html" aria-current="page">Home</a>
+            <a href="Projects.html">Projects</a>
+            <a href="Contact.html">Contact</a>
+            <a class="nav-resume" href="Resume.html">Resume</a>
+        </nav>
+    </header>
 
-    </head>
-    <body>
-
-
-
-        <header class="top-bar">
-          <img src="JLlogo.jpeg">
-          <button class="dark-mode-toggle">Toggle Dark Mode</button>
-          <script src="main.js"></script>
-         
-
-
-
-          
-            <nav class="navigation">
-                <div class="dropdown">
-                    <button class="dropbtn">Pages 
-                      <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
-                      <a href="Home.html">Home</a>
-                      <a href="Projects.html">Projects</a>
-                      <a href="Contact.html">Contact</a>
-                    </div>
-                  </div> 
-                  </nav>
-                  </header>
-                  
-               
-
-        
-
-                  <section class="about-me">
-                    <div class="profile-box">
-                        <div class="profile-details">
-                            <img class="headshot" src="headshot.jpeg" alt="Jaime Landau">
-                            <h1>Jaime Landau</h1>
-                            <p>Web Developer, Aspiring Software Developer, Aspiring Cybersecurity Engineer</p>
-                            <p><a href="tel:+16507961414" class="phone"><i class="fas fa-phone phone-number"></i> +1 650-796-1414</a></p>
-                            <p><a href="mailto:jaime.landau19@gmail.com" class="email"><i class="fas fa-envelope"></i> jaime.landau19@gmail.com</a></p>
-                            <p><i class="fas fa-map-marker-alt map"></i> Huntersville, NC</p>
-                            <!-- <p><i class="fas fa-calendar calendar-icon"></i> November 19, 2001</p> -->
-                        </div>
-                        <div class="social-links">
-                            <a href="https://www.linkedin.com/in/jaime-landau-0703a32bb/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                            <a href="https://github.com/jaimeland" target="_blank"><i class="fab fa-github"></i></a>
-                        </div>
-                        <div class="resume-download">
-                            <a href="Resume.pdf" class="download-button" download="Jaime_Resume.pdf">Download CV</a>
-                        </div>
-                    </div>
-                </section>
-
-        <div class="skills">
-            <u><h1 class="languages">Skills</h1></u>
-            <ul>
-                <li>HTML ★★★★ </li>
-                <li>CSS ★★★★ </li>
-                <li>Javascript ★★ </li>
-                <li>Java ★★★ </li>
-                <li>Python ★★★ </li>
-            </ul>
-        </div>
-
-        <div class="skills-section">
-          <h1 class="section-title">Skills</h1>
-          <div class="skill">
-              <label for="html-skill">HTML</label>
-              <progress id="html-skill" value="80" max="100"></progress>
-          </div>
-          <div class="skill">
-              <label for="css-skill">CSS</label>
-              <progress id="css-skill" value="80" max="100"></progress>
-          </div>
-          <div class="skill">
-              <label for="js-skill">JavaScript</label>
-              <progress id="js-skill" value="40" max="100"></progress>
-          </div>
-          <div class="skill">
-            <label for="java-skill">Java</label>
-            <progress id="java-skill" value="60" max="100"></progress>
-        </div>
-        <div class="skill">
-          <label for="python-skill">Python</label>
-          <progress id="python-skill" value="60" max="100"></progress>
-      </div>
-      </div>
-
-        <section class="software">
-            <h1>What I Do!</h1>
-            <div class="software-list">
-              <div class="software-item">
-                <h2><i class="fas fa-mobile-alt"></i> App Development</h2>
-                <p>Beginner in Swift, have made some applications. One was a card game.
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">IT & Systems Professional</p>
+                <h1>Computer science graduate supporting reliable systems, users, and technical operations.</h1>
+                <p class="hero-summary">
+                    I am a Computer Science graduate with hands-on experience in IT support,
+                    SaaS operations, and full-stack development, with Google cybersecurity
+                    certifications and growing expertise in data analytics and AI-driven tooling.
                 </p>
-              </div>
-              <div class="software-item">
-                <h2><i class="fas fa-angle-left"></i><i class="fas fa-angle-right"></i> Web Development</h2>
-                <p>Use of HTML, CSS, and Javascript to efficiently code, style, and mantain websites.
-                </p>
-              </div>
+                <div class="hero-actions" aria-label="Primary actions">
+                    <a class="button primary" href="Resume.html">View Resume</a>
+                    <a class="button secondary" href="Projects.html">See Projects</a>
+                </div>
             </div>
-          </section>
+            <div class="hero-portrait" aria-label="Professional headshot of Jaime Landau">
+                <img src="headshot.jpeg" alt="Jaime Landau smiling in a suit">
+            </div>
+        </section>
 
-    </body>
+        <section class="section intro-grid" aria-labelledby="profile-heading">
+            <div>
+                <p class="section-kicker">Profile</p>
+                <h2 id="profile-heading">Ready to contribute on teams that keep technology working for people.</h2>
+                <p>
+                    My computer science background gives me a strong technical foundation, while
+                    my recent operations and IT internships gave me practical experience delivering
+                    Tier 1-2 support, documenting fixes, deploying devices, training end users,
+                    and improving day-to-day business systems.
+                </p>
+            </div>
+            <div class="quick-facts" aria-label="Quick facts">
+                <div>
+                    <strong>Degree</strong>
+                    <span>B.S. Computer Science</span>
+                </div>
+                <div>
+                    <strong>Minor</strong>
+                    <span>Business Administration</span>
+                </div>
+                <div>
+                    <strong>Recognition</strong>
+                    <span>Dean's List</span>
+                </div>
+                <div>
+                    <strong>Focus</strong>
+                    <span>IT Support & Systems</span>
+                </div>
+            </div>
+        </section>
 
+        <section class="section" aria-labelledby="experience-heading">
+            <div class="section-heading">
+                <div>
+                    <p class="section-kicker">Experience</p>
+                    <h2 id="experience-heading">Recent roles with hands-on technical operations work.</h2>
+                </div>
+            </div>
+
+            <div class="experience-list">
+                <article class="experience-card">
+                    <div>
+                        <p class="role-dates">Sep 2025 - Dec 2025</p>
+                        <h3>IT & Operations Intern</h3>
+                        <p>United Water Restoration Group - Pompano Beach, FL</p>
+                    </div>
+                    <ul class="clean-list">
+                        <li>Delivered Tier 1-2 support for hardware, software, and printer issues across Windows and macOS.</li>
+                        <li>Configured, provisioned, and deployed employee devices to streamline onboarding.</li>
+                        <li>Built an internal knowledge base of common issues and solutions to reduce future resolution time.</li>
+                    </ul>
+                </article>
+
+                <article class="experience-card">
+                    <div>
+                        <p class="role-dates">Oct 2025 - Dec 2025</p>
+                        <h3>Accounts Receivable and Operations Intern</h3>
+                        <p>Air Force HVAC</p>
+                    </div>
+                    <ul class="clean-list">
+                        <li>Administered and optimized Jobber CRM workflows for invoicing, payment tracking, and client communications.</li>
+                        <li>Designed and delivered SaaS platform training sessions for field technicians.</li>
+                        <li>Monitored accounts receivable pipelines and improved internal operations processes.</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" aria-labelledby="projects-heading">
+            <div class="section-heading">
+                <div>
+                    <p class="section-kicker">Selected Work</p>
+                    <h2 id="projects-heading">Projects with clear technical outcomes.</h2>
+                </div>
+                <a class="text-link" href="Projects.html">View all project details</a>
+            </div>
+
+            <div class="project-grid">
+                <article class="project-card">
+                    <div class="project-meta">
+                        <span>C#</span>
+                        <span>Unity 3D</span>
+                    </div>
+                    <h3>3D Game: Enemy AI & Mission Logic</h3>
+                    <p>
+                        Developed a playable 3D game featuring enemy AI pathfinding,
+                        collectibles, mission completion systems, real-time physics, and scalable
+                        player interactions.
+                    </p>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-meta">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>PHP</span>
+                        <span>SQL</span>
+                    </div>
+                    <h3>Class Scheduling Web Application</h3>
+                    <p>
+                        Built a full-stack responsive web app enabling students to plan course
+                        schedules based on availability and prerequisites.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section resume-section" aria-labelledby="resume-heading">
+            <div>
+                <p class="section-kicker">Resume Snapshot</p>
+                <h2 id="resume-heading">Technical strengths recruiters can scan quickly.</h2>
+            </div>
+            <div class="resume-columns">
+                <div>
+                    <h3>IT & Support</h3>
+                    <ul class="pill-list">
+                        <li>Windows</li>
+                        <li>macOS</li>
+                        <li>Device Setup</li>
+                        <li>Troubleshooting</li>
+                        <li>End-User Support</li>
+                        <li>Networking Fundamentals</li>
+                        <li>Documentation</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Tools & Platforms</h3>
+                    <ul class="pill-list">
+                        <li>Jobber CRM</li>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>Visual Studio</li>
+                        <li>Sublime Text</li>
+                        <li>Unity</li>
+                        <li>Microsoft Excel</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Programming & Data</h3>
+                    <ul class="pill-list">
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>C#</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>PHP</li>
+                        <li>SQL</li>
+                        <li>Data Analytics</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" aria-labelledby="certifications-heading">
+            <div class="section-heading">
+                <div>
+                    <p class="section-kicker">Certifications</p>
+                    <h2 id="certifications-heading">Continuing education in cybersecurity and business tools.</h2>
+                </div>
+            </div>
+            <div class="cert-grid">
+                <a class="cert-card" href="https://coursera.org/verify/V6246YV8VX5U" target="_blank" rel="noopener">
+                    <span>Google - Coursera</span>
+                    <strong>Foundations of Cybersecurity</strong>
+                    <p>Mar 2025</p>
+                </a>
+                <a class="cert-card" href="https://coursera.org/verify/SY1RLUDM48ZS" target="_blank" rel="noopener">
+                    <span>Google - Coursera</span>
+                    <strong>Play It Safe: Manage Security Risks</strong>
+                    <p>Apr 2025</p>
+                </a>
+                <a class="cert-card" href="https://coursera.org/verify/47ZA1MFLWTOK" target="_blank" rel="noopener">
+                    <span>Macquarie University - Coursera</span>
+                    <strong>Excel Skills for Business: Essentials</strong>
+                    <p>Jan 2026</p>
+                </a>
+                <article class="cert-card">
+                    <span>Macquarie University - Coursera</span>
+                    <strong>Excel Skills for Business: Intermediate I</strong>
+                    <p>Feb 2026</p>
+                </article>
+                <article class="cert-card">
+                    <span>Macquarie University - Coursera</span>
+                    <strong>Excel Skills for Business: Intermediate II</strong>
+                    <p>Feb 2026</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="cta-band" aria-labelledby="contact-heading">
+            <div>
+                <p class="section-kicker">Open to Opportunities</p>
+                <h2 id="contact-heading">Let’s connect about IT support, systems, operations, or cybersecurity opportunities.</h2>
+            </div>
+            <div class="cta-actions">
+                <a class="button primary" href="mailto:jaime.landau19@gmail.com">Email Me</a>
+                <a class="button secondary" href="https://github.com/jaimeland" target="_blank" rel="noopener">GitHub</a>
+                <a class="button secondary" href="http://www.linkedin.com/in/jaime-landau" target="_blank" rel="noopener">LinkedIn</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Jaime Landau &middot; IT & Systems Portfolio</p>
+        <a href="Resume.html">View Resume</a>
+    </footer>
+</body>
 </html>
-

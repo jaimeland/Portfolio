@@ -1,72 +1,71 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Contact Me</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    </head>
-    <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Jaime Landau for IT support, systems, operations, cybersecurity, and web development opportunities.">
+    <title>Contact | Jaime Landau</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="Home.html" aria-label="Jaime Landau home">
+            <img src="JLlogo.jpeg" alt="" class="brand-mark">
+            <span>Jaime Landau</span>
+        </a>
+        <nav class="site-nav" aria-label="Primary navigation">
+            <a href="Home.html">Home</a>
+            <a href="Projects.html">Projects</a>
+            <a href="Contact.html" aria-current="page">Contact</a>
+            <a class="nav-resume" href="Resume.html">Resume</a>
+        </nav>
+    </header>
 
+    <main>
+        <section class="page-hero contact-hero">
+            <p class="eyebrow">Contact</p>
+            <h1>Interested in working together?</h1>
+            <p>
+                I am open to entry-level IT support, systems, operations, cybersecurity, and
+                web development opportunities where I can contribute, learn quickly, and help
+                keep technical systems reliable.
+            </p>
+        </section>
 
-        <header class="top-bar">
-            <img src="JLlogo.jpeg">
-            <button class="dark-mode-toggle">Toggle Dark Mode</button>
-            <script src="main.js"></script>
+        <section class="section contact-grid" aria-label="Contact information">
+            <a class="contact-tile" href="mailto:jaime.landau19@gmail.com">
+                <span>Email</span>
+                <strong>jaime.landau19@gmail.com</strong>
+            </a>
+            <a class="contact-tile" href="tel:+16507961414">
+                <span>Phone</span>
+                <strong>(650) 796-1414</strong>
+            </a>
+            <a class="contact-tile" href="http://www.linkedin.com/in/jaime-landau" target="_blank" rel="noopener">
+                <span>LinkedIn</span>
+                <strong>linkedin.com/in/jaime-landau</strong>
+            </a>
+            <a class="contact-tile" href="https://github.com/jaimeland" target="_blank" rel="noopener">
+                <span>GitHub</span>
+                <strong>github.com/jaimeland</strong>
+            </a>
+        </section>
 
-            
-            <nav class="navigation">
-                <div class="dropdown">
-                    <button class="dropbtn">Pages 
-                      <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
-                      <a href="Home.html">Home</a>
-                      <a href="Projects.html">Projects</a>
-                      <a href="Contact.html">Contact</a>
-                    </div>
-                  </div> 
-                  </nav>
-                  </header>
+        <section class="cta-band" aria-labelledby="resume-contact-heading">
+            <div>
+                <p class="section-kicker">Resume</p>
+                <h2 id="resume-contact-heading">Need the full one-page resume?</h2>
+            </div>
+            <div class="cta-actions">
+                <a class="button primary" href="Resume.html">View Resume</a>
+                <a class="button secondary" href="Projects.html">Review Projects</a>
+            </div>
+        </section>
+    </main>
 
-        
-
-        <div class="contact-details">
-            <h2 class="contact-info">Contact Information</h2>
-            <h3>Email: <span class="email">jaime.landau19@gmail.com</span></h3>
-            <h3>Phone: <span class="phone"></span></h3>
-            <h3>Linkedin: <span class="linkedin"></span><a href="/in/jaime-landau-0703a32bb">www.linkedin.com/in/jaime-landau-0703a32bb
-            </a></h3>
-            <h3>Github: <span class="github"><a href="https://github.com/jaimeland">https://github.com/jaimeland</a></span></h3>
-        </div>
-
-        <h2>Contact Form</h2>
-        <form id="contact-form" onsubmit="handleSubmit(event)">
-            <label for="email-box">Email:</label>
-            <input type="text" id="email-box" required>
-    
-            <label for="subject-box">Subject:</label>
-            <input type="text" id="subject-box" required>
-    
-            <label for="description-box">Description:</label>
-            <textarea id="description-box" rows="4" required></textarea>
-    
-            <div class="error" id="error-message"></div>
-    
-            <button type="submit">Send Email</button>
-        </form>
-
-
-    
-        
-
-        
-
-
-        
-
-        
-
-    </body>
-   
-
+    <footer class="site-footer">
+        <p>Jaime Landau &middot; Contact</p>
+        <a href="Home.html">Back to Home</a>
+    </footer>
+</body>
 </html>
